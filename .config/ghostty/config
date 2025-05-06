@@ -1,4 +1,4 @@
-theme=dayfox
+theme="xcodelight"
 macos-icon=microchip
 window-padding-x=5
 window-padding-y=5
