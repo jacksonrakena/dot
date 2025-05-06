@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "os": "#ACB0BE",
+    "closer": "p:os",
+    "pink": "#ea76cb",
+    "lavender": "#7287FD",
+    "blue": "#1e66f5"
+  },
+  "blocks": [
+    {
+      "segments": [
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#007ACC",
+          "properties": {
+            "time_format": "3:04:05 PM"
+          }
+        }
+      ],
+      "type": "rprompt"
+    },
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "p:blue",
+          "style": "plain",
+          "template": "{{ .UserName }}@{{ .HostName }}",
+          "type": "session"
+        },
+        {
+          "foreground": "p:pink",
+          "properties": {
+            "branch_template": "{{ trunc 25 .Branch }}",
+            "fetch_stash_count": false,
+            "fetch_status": false,
+            "fetch_upstream_icon": false,
+            "branch_icon": ""
+          },
+          "style": "plain",
+          "template": " {{ .HEAD }}",
+          "type": "git"
+        },
+        {
+          "foreground": "#62c0ff",
+          "properties": {
+            "folder_separator_icon": "/",
+            "style": "full"
+          },
+          "style": "plain",
+          "type": "path"
+        },
+        {
+          "foreground": "p:closer",
+          "style": "plain",
+          "template": "\uf105 ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 3
+}
