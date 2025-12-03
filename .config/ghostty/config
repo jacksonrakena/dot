@@ -1,5 +1,5 @@
-theme="xcodelight"
-macos-icon=microchip
+theme=Pencil Light
+macos-icon=retro
 window-padding-x=5
 window-padding-y=5
 cursor-style=bar
