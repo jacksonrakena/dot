@@ -1,7 +1,5 @@
-
-
-# Added by Toolbox App
 export PATH="$PATH:/Users/jrakena/Library/Application Support/JetBrains/Toolbox/scripts"
-
-
+export PATH="$PATH:$(yarn global bin)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export LIBRARY_PATH="$LIBRARY_PATH:$(brew --prefix)/lib"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"

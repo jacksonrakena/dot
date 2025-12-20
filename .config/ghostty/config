@@ -1,8 +1,20 @@
-theme=Pencil Light
+theme=Xcode Light
 macos-icon=retro
 window-padding-x=5
 window-padding-y=5
 cursor-style=bar
-adjust-cell-width=-10%
-font-size=14
-font-family="IBM Plex Mono"
+#adjust-cell-width=-2
+font-size=15
+#font-family=Iosevka Term
+#font-family="IBM Plex Mono"
+#font-family="FiraCode Nerd Font"
+#font-family="DroidSansM Nerd Font"
+font-family="JetBrains Mono"
+
+#theme="xcodelight"
+#window-padding-x=5
+#window-padding-y=5
+#cursor-style=bar
+#font-size=16
+#font-family="Iosevka"
+#font-style=Medium
