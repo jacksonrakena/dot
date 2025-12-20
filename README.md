@@ -13,4 +13,4 @@ Config applies some opinionated autocomplete defaults. You need:
 
 
 ## demo
-[![asciicast](https://asciinema.org/a/HIQ7N0LCpFVpGK5QqKlukbRSG.svg)](https://asciinema.org/a/HIQ7N0LCpFVpGK5QqKlukbRSG)
+![asciicast](demo.gif)
