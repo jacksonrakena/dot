@@ -1,0 +1,30 @@
+format = '$time $username$hostname$directory $git_branch$git_status$all$character'
+[time]
+disabled = false
+style = "#007ACC"
+time_format = "%r"
+format = '[$time]($style)'
+
+[username]
+show_always = true
+style_user = "blue"
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+style = "blue"
+format = '[@$hostname]($style)'
+
+[directory]
+truncate_to_repo = false
+format = ' [$path]($style)[$read_only]($read_only_style)'
+
+[git_branch]
+symbol = ''
+
+[character]
+success_symbol = "[ \uf105 ](os)"
+error_symbol = "[ \uf105 ](bold red)"
+
+[line_break]
+disabled = true
