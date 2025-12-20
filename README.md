@@ -2,8 +2,8 @@
 Fairly simple setup. You need:
 
 - Ghostty (on Mac)
-- Starship
 - Zsh
+- How 2 Unix Like Me: `brew install lazygit git-delta mise starship bat eza`
 
 In this house we don't believe in plugin managers.
 
