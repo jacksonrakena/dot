@@ -5,6 +5,8 @@ Fairly simple setup. You need:
 - Starship
 - Zsh
 
+In this house we don't believe in plugin managers.
+
 ## Zsh config
 Config applies some opinionated autocomplete defaults. You need:
 - bat and eza, modern classics (brew install both)
