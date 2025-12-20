@@ -28,3 +28,7 @@ error_symbol = "[ \uf105 ](bold red)"
 
 [line_break]
 disabled = true
+
+# [kubernetes]
+# format = 'via [󱃾 $context\($namespace\)](bold purple) '
+# disabled = false
