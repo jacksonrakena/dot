@@ -10,6 +10,7 @@ font-size=14
 #font-family="FiraCode Nerd Font"
 #font-family="DroidSansM Nerd Font"
 font-family="JetBrains Mono"
+macos-option-as-alt=true
 
 #theme="xcodelight"
 #window-padding-x=5
