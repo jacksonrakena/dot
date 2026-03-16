@@ -2,18 +2,18 @@ format = '$time $username$hostname:$directory $git_branch$character'
 #work_format = '$time $directory $git_branch$git_status$all$character'
 [time]
 disabled = false
-#style = "#007ACC"
+style = "black bold bg:blue"
 time_format = "%I:%M %p"
 format = '[$time]($style)'
 
 [username]
 show_always = true
-style_user = "green"
+style_user = "blue"
 format = '[$user]($style)'
 
 [hostname]
 ssh_only = false
-style = "green"
+style = "bold blue"
 format = '[@$hostname]($style)'
 
 [directory]
