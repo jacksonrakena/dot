@@ -1,22 +1,29 @@
-theme="Bright Lights"
+# Theme
+theme="Xcode Light"
 macos-icon=retro
 window-padding-x=5
 window-padding-y=5
 cursor-style=bar
-#adjust-cell-width=-2
+
+# Common font settings
 font-size=14
-#font-family=Iosevka Term
-#font-family="IBM Plex Mono"
-#font-family="FiraCode Nerd Font"
-#font-family="DroidSansM Nerd Font"
+
+# My settings for JetBrains Mono
 font-family="JetBrains Mono"
+
+# My settings for IBM Plex Mono
+#font-family="IBM Plex Mono"
+#font-style=Medium
+
+# Enable option+keys on macOS
 macos-option-as-alt=true
 
-#theme="xcodelight"
-#window-padding-x=5
-#window-padding-y=5
-#cursor-style=bar
-#font-size=16
-#font-family="Iosevka"
-#font-style=Medium
+# Mmm pretty
+background-opacity=0.95
+background-blur-radius = 20
+
+# Quick terminal
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+# When SSHing into servers, automatically set ghostty terminal mode
 shell-integration-features = ssh-terminfo,ssh-env
