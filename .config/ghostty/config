@@ -9,10 +9,10 @@ cursor-style=bar
 font-size=14
 
 # My settings for JetBrains Mono
-font-family="JetBrains Mono"
+#font-family="JetBrains Mono"
 
 # My settings for IBM Plex Mono
-#font-family="IBM Plex Mono"
+font-family="IBM Plex Mono"
 #font-style=Medium
 
 # Enable option+keys on macOS
